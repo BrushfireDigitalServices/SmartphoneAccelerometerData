@@ -11,7 +11,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 More details are available from the file "README.txt" within the "UCI HAR Dataset" folder.
 
-Users are expected to extract the dataset archive to the top level of their R working directory before running tidyAccelData.R. 
+Users are expected to extract the dataset archive to the top level of their R working directory before running run_analysis.R. 
 
 ### As specified the source of the dataset, the proper citation for using the dataset this repo is designed to operate on is as follows:
 
