@@ -1,6 +1,16 @@
 # SmartphoneAccelerometerData
 R script and code book for reading into R the human activity recognition smartphone accelerometer data obtained from the UCI Machine Learning Repository in a "tidy" data.frame.
 
+### run_analysis() expects the following directory structure:
+
+getwd()
+  |__Script
+  |  |__run_analysis.R
+  |  |__README.md
+  |  |__CodeBook.md
+  |__UCI HAR Dataset
+     |__(files and subfolders of input dataset)
+
 ### The original data, in the form of a directory structure within a .zip file, can be obtained at:
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
