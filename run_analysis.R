@@ -69,6 +69,6 @@ run_analysis <- function() {
     print("Calculating means of each variable")
     calculatedMeans <- unlist(lapply(splitData, justNumColMeans))
     print("Saving to analysis_results.txt. If the file already exists, it will be overwritten.")
-    write.table(unlist(calculatedMeans), file = "analysis_results.txt", row.names = FALSE, col.names=c("Mean"))
+    write.table(unlist(calculatedMeans), file = "analysis_results.txt", row.names = FALSE, col.names=FALSE)
     
 }
