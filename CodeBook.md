@@ -17,12 +17,12 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ### run_analysis() expects the following directory structure:
 
 getwd()  
-  |__Script  
-  |  |__run_analysis.R  
-  |  |__README.md  
-  |  |__CodeBook.md  
-  |__UCI HAR Dataset  
-     |__(files and subfolders of input dataset)  
+  |----Script  
+  |    |----run_analysis.R  
+  |    |----README.md  
+  |    |----CodeBook.md  
+  |----UCI HAR Dataset  
+       |----(files and subfolders of input dataset)  
 
 ## Output data
 
