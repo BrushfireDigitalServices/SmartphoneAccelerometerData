@@ -1,7 +1,7 @@
 # SmartphoneAccelerometerData
 R script and code book for reading into R the human activity recognition smartphone accelerometer data obtained from the UCI Machine Learning Repository in a "tidy" data.frame.
 
-### i prun_analysis() expects the following directory structure:
+### run_analysis() expects the following directory structure:
 
 getwd()  
   |__Script  
