@@ -58,6 +58,17 @@ run_analysis <- function() {
     
     ## 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     
+    print("Splitting by Subject and Activity in preparation to find means of each variable")
+    splitData <- split(gatheredData, list(gatheredData$Subject, gatheredData$Activity))
     
+    justNumColMeans <- function(x) {
+        colMeans(x[3:88])
+        
+    }
+    
+    print("Calculating means of each variable")
+    calculatedMeans <- unlist(lapply(splitData, justNumColMeans))
+    print("Saving to analysis_results.txt. If the file already exists, it will be overwritten.")
+    write.table(unlist(calculatedMeans), file = "analysis_results.txt", row.names = FALSE, col.names=c("Mean"))
     
 }
