@@ -1,13 +1,13 @@
 # About the run_analysis.R script
 
-As defined in the Getting and Cleaning Data class assignment, this is "a code book that describes the variables, the data, and any transformations or work that [I] performed to clean up the data."
+As defined in the Getting and Cleaning Data class project , this is "a code book that describes the variables, the data, and any transformations or work that [I] performed to clean up the data."
 
 ## Input data
 
 ### The original data, in the form of a directory structure within a .zip file, can be obtained at:
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
-Extract this archive to the top level of the R working directory before proceeding.
+__Extract this archive to the top level of the R working directory before proceeding.__
 
 Note that the terms of use for the original data set explicitly **prohibit** commercial use.
 
